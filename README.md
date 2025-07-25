@@ -27,9 +27,7 @@ Welcome to my **Next.js-powered portfolio**, where I present my work, skills, an
 
 ---
 
-## 📸 Preview
 
-> _Include screenshots or screen recordings to provide a visual overview of your portfolio._
 
 ---
 
