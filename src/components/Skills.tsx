@@ -31,7 +31,7 @@ const skills = [
   },
   {
     name: "JS + TS",
-    value: 75,
+    value: 85,
     colorHex: ["#facc15", "#ca8a04"],
     icon: <FaJs size={40} />,
   },
@@ -43,19 +43,19 @@ const skills = [
   },
   {
     name: "Next.js",
-    value: 90,
+    value: 95,
     colorHex: ["#6b7280", "#ffffff"],
     icon: <SiNextdotjs size={40} />,
   },
   {
     name: "Node.js",
-    value: 75,
+    value: 95,
     colorHex: ["#22c55e", "#84cc16"],
     icon: <FaNodeJs size={40} />,
   },
   {
     name: "Python",
-    value: 80,
+    value: 90,
     colorHex: ["#fde68a", "#60a5fa"],
     icon: <FaPython size={40} />,
   },
