@@ -15,8 +15,8 @@ import {
   FaInfinity,
   FaGlobe,
 } from 'react-icons/fa';
-import { FaComputer, FaUpwork } from 'react-icons/fa6';
-import { SiFlutter, SiTypescript } from 'react-icons/si';
+import { FaComputer,  } from 'react-icons/fa6';
+import { SiFlutter, SiTypescript,SiUpwork ,SiCplusplus} from 'react-icons/si';
 
 export default function About() {
   const skills = [
@@ -24,6 +24,7 @@ export default function About() {
     { name: 'UI/UX Design', icon: <FaPaintBrush size={24} /> },
     { name: 'HTML', icon: <FaHtml5 size={24} />, },
     { name: 'CSS', icon: <FaCss3Alt size={24} /> },
+    { name: 'C++', icon: <SiCplusplus size={24} /> },
     { name: 'JavaScript', icon: <FaJs size={24} /> },
     { name: 'TypeScript', icon: <SiTypescript size={24} /> },
     { name: 'React', icon: <FaReact size={24} /> },
@@ -36,6 +37,7 @@ export default function About() {
     { name: 'flutter developer', icon: <SiFlutter size={24} /> },
     { name: 'Web Developer', icon: <FaComputer size={24} /> },
     { name: 'Remote Worker', icon: <FaGlobe size={24} /> },
+    { name: 'Freelance', icon: <SiUpwork size={24} /> },
   ];
 
   return (

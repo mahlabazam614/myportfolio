@@ -5,8 +5,8 @@ import { Particles } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { Engine as TspEngine } from "@tsparticles/engine";
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython } from "react-icons/fa";
-import { SiFlutter, SiLinkedin, SiNextdotjs, SiSanity, SiTailwindcss } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython ,  } from "react-icons/fa";
+import { SiFlutter, SiLinkedin, SiNextdotjs, SiSanity, SiTailwindcss, SiCplusplus, SiDart,SiPostgresql ,} from "react-icons/si";
 import { BsStars } from "react-icons/bs";
 import { Tooltip } from "react-tooltip";
 
@@ -17,7 +17,7 @@ const skills = [
     colorHex: ["#fb923c", "#ef4444"],
     icon: <FaHtml5 size={40} />,
   },
-    {
+  {
     name: "CSS",
     value: 80,
     colorHex: ["#fde68a", "#60a5fa"],
@@ -54,6 +54,12 @@ const skills = [
     icon: <FaNodeJs size={40} />,
   },
   {
+    name: "C++",
+    value: 75,
+    colorHex: ["#22d3ee", "#84cc16"],
+    icon: <SiCplusplus size={40} />,
+  },
+  {
     name: "Python",
     value: 80,
     colorHex: ["#fde68a", "#60a5fa"],
@@ -65,23 +71,35 @@ const skills = [
     colorHex: ["#ec4899", "#a21caf"],
     icon: <BsStars size={40} />,
   },
-   {
+  {
     name: "flutter",
     value: 80,
     colorHex: ["#22d3ee", "#2563eb"],
     icon: <SiFlutter size={40} />,
   },
-     {
+  {
     name: "Linkedin",
     value: 95,
     colorHex: ["#fde68a", "#6b7280"],
     icon: <SiLinkedin size={40} />,
   },
-    {
+  {
     name: "Sanity",
     value: 80,
     colorHex: ["#fde68a", "#84cc16"],
     icon: <SiSanity size={40} />,
+  },
+  {
+    name: "Dart",
+    value: 70,
+    colorHex: ["#fde68a", "#22d3ee"],
+    icon: <SiDart size={40} />,
+  },
+  {
+    name: "Neon PostgreSQL",
+    value: 80,
+    colorHex: ["#22d3ee", "#10b981"],
+    icon: <SiPostgresql size={40} />,
   },
 ];
 
@@ -93,7 +111,7 @@ export default function Skills() {
 
 
   useEffect(() => {
-   
+
     import("@tsparticles/engine").then(({ tsParticles }) => {
       particlesInit(tsParticles as TspEngine);
     });
